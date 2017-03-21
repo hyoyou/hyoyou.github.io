@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Hello World!"
+date:   2017-03-21 17:53:40 +0000
+---
+
+
+So.. why did I decide to finally take the plunge and learn to code?
+
+Short answer: If I'm going to be dedicating so much time at work during my adulthood, I might as well spend that time doing something I enjoy!
+
+Long answer: I have to take myself back -- way back! -- to when teachers gave us drawing assignments and writing assignments under "When I grow up...". My answer was always an architect, as I was fascinated by beautiful buildings and houses. I could spend hours building miniature models and looking through architecture magazines while my friends would flip through entertainment and fashion magazines. I thought I knew what I wanted to do with my life and that I was lucky to have known so early. 
+
+Well, one experience completely changed my view. The summer before my senior year in high school, I had an internship at a well-known architectural firm in NYC. The architects there were exhausted and undervalued. Some told me that if they had the chance to start over again, they would choose a different career. Reality hit me then. I had built up an unrealistic dream -- a place where I can find myself designing beautiful structures and building little models for client presentations -- when reality was that architects at this firm were spending 12+ hours a day in front of computers, managing projects, billing, communicating with contractors and engineers, dealing with clients who will constantly change their minds, doing anything but the glamourous designing job that I had dreamt up. I finished my internship horrified and intimidated, and **I lost all confidence in my decision making skills**. 
+
+So I began my senior year in high school confused and aimless, while my peers were at the final stages of narrowing down their life plans. I had to apply for college somewhere, so I conceded to my parents' wishes and went into a science-related field, found zero passion, and graduated with a biology degree that was never useful in my career. It's been six years since I've graduated, and I'm still finding purpose in my career while going job to job. In between jobs, I've attempted to learn code from various websites like Codecademy and Lynda.com, but I was always hesitant to fully commit, **fearing that what I enjoy doing now may be different from reality**.
+
+Five months ago, I found myself taking some more introductory courses during some spare time at work and home. Somehow I kept coming back to learning to code. This time, I knew that I couldn't keep testing the waters and keeping one foot out the door. Sometimes I look back at how quickly I gave up on becoming an architect, and wonder why I let others decide for myself. Maybe I was different. Maybe I had more passion. Maybe what they found difficult, I would've enjoyed. I am ashamed that I ran away without giving myself a moment to think for myself, which cost me ten years of bouncing around through majors and careers. I would like to think of those ten years as a huge learning experience helping me accept the fact that it's okay to fail if you can at least say you gave it a try. **So, after all these years of avoiding making life-changing decisions without the input of others, learning to code is a decision I let myself make** because it interests me, keeps me engaged, and lets me feel accomplished. I know the days ahead of me will be filled with challenges and times when I think to myself, "I can't do this!", but I also know there will be days when I feel succesful and accomplished, which will make all those other days worth it. Who knows, maybe being a developer won't exactly be the picture I dreamt of, but you know what they say, you'll never know until you try. 
