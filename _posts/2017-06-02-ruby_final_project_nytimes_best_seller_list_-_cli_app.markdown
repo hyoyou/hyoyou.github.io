@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Ruby Final Project: NYTimes Best Seller List - CLI App
-date:   2017-06-02 21:15:01 +0000
+title:  "Ruby Final Project CLI App"
+date:   2017-06-02 17:15:02 -0400
 ---
 
 ![My CLI Project](http://imgur.com/RAvnaUS.jpg)
