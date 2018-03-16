@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails App with jQuery Front End Final Project Recipe App"
-date:       2018-03-16 20:41:58 +0000
+date:       2018-03-16 16:41:59 -0400
 permalink:  rails_app_with_jquery_front_end_final_project_recipe_app
 ---
 
@@ -10,7 +10,7 @@ For my final project for the JavaScript section, I didn't really add much more f
 
 ![Home Page](https://imgur.com/6KjLEGQ.jpg)
 
-### Index Page
+## Index Page
 
 ![Index rendered with Rails](https://imgur.com/wIZPK1l.jpg)
 
@@ -23,7 +23,7 @@ The index page generated through Rails is separated into 3 columns, with informa
 
 The index page generated through Ajax only lists links to the names of each Recipe object.
 
-### Show Page
+## Show Page
 
 ![Show rendered with Rails](https://imgur.com/eevtflo.jpg)
 
