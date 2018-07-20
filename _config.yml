@@ -1,13 +1,14 @@
 # Site settings
-title: Heather Codes
+title: Heather You
 header-img: img/home-bg.png
 email: heatherhyou@gmail.com
-copyright_name: hyoyou
+copyright_name: Heather You
 description: > # this means to ignore newlines until "baseurl:"
-  my journey to becoming a developer
+  Full Stack Web Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
+twitter_username: heatherhyou
 github_username:  hyoyou
+linkedin_username: heather-you
 learn_profile: hyoyou
 email_username: heatherhyou@gmail.com
 
