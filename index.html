@@ -2,11 +2,14 @@
 layout: page
 ---
 
+<h2 class="blog-page-header">Latest blog posts</h2>
+<hr>
+
+<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
+    <a href="{{ post.url | prepend: site.baseurl }}" class="title">
+        <h2 class="post-title">{{ post.title }}</h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
