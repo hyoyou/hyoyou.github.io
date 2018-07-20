@@ -67,7 +67,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-serve');
 
     // Default task(s).
     grunt.registerTask('default', ['uglify', 'less', 'usebanner']);

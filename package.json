@@ -18,8 +18,5 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
-    },
-    "dependencies": {
-        "grunt-serve": "^0.1.6"
     }
 }
