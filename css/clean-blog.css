@@ -5,8 +5,9 @@
  */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   color: #404040;
 }
 p {
@@ -17,7 +18,14 @@ p a {
   text-decoration: underline;
 }
 h1,
-h2,
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.site-heading > h1 {
+  font-size: 2rem;
+}
 h3,
 h4,
 h5,
@@ -50,6 +58,12 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+.center{
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .navbar-custom {
   background: white;
   position: absolute;
@@ -68,6 +82,10 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
+.navbar-social {
+  padding-top: 1rem;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar-custom {
     background: transparent;
@@ -145,7 +163,7 @@ hr.small {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
