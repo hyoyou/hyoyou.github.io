@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   color: #404040;
@@ -13,9 +13,13 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+  text-align: justify;
 }
 p a {
   text-decoration: underline;
+}
+.site-heading > h1 {
+  font-size: 2rem;
 }
 h1,
 h2 {
@@ -23,8 +27,8 @@ h2 {
   font-weight: 900;
   text-transform: uppercase;
 }
-.site-heading > h1 {
-  font-size: 2rem;
+h2.blog-page-header {
+  color: #999;
 }
 h3,
 h4,
@@ -47,6 +51,25 @@ a:focus {
 a img:hover,
 a img:focus {
   cursor: zoom-in;
+}
+a.title {
+  text-align: center;
+  letter-spacing: 0.075em;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 2rem;
+}
+a.title :hover {
+  padding: 0 2rem;
+  text-align: center;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 blockquote {
   color: #808080;
@@ -253,7 +276,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-style: italic;
   margin-top: 0;
 }
@@ -270,6 +293,15 @@ hr.small {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
+}
+.content-box {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.content-box-icon {
+  font-size: 4rem;
 }
 .section-heading {
   font-size: 36px;
@@ -294,7 +326,11 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-size: 14px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  font-size: 13px;
+  margin-top: 0px;
   text-align: center;
   margin-bottom: 0;
 }
@@ -445,7 +481,7 @@ body {
 
 .learn-icon {
   position: relative;
-  top: 5px;
+  top: 3px;
   display: inline-block;
   font-family: 'glyphterregular';
   font-style: normal;
