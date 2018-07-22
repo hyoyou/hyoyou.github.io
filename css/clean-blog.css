@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Merriweather', serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
   color: #404040;
@@ -293,6 +293,15 @@ hr.small {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
+}
+.content-box {
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.content-box-icon {
+  font-size: 4rem;
 }
 .section-heading {
   font-size: 36px;
