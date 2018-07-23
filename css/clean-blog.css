@@ -295,9 +295,8 @@ hr.small {
   }
 }
 .content-box {
-  font-family: 'Inconsolata', monospace;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
   padding: 20px 0;
 }
