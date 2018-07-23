@@ -295,18 +295,34 @@ hr.small {
   }
 }
 
-/* ================= About Me ================= */
+/* ================= Portfolio ================= */
 .article-container {
   margin-left: -16.667%;
-  margin-right: 16.667%;
+  margin-right: -16.667%;
 }
 article {
   float: left;
-  width: 44%;
-  padding: 5% 3%;
+  width: 50%;
+  height: 600px;
+  padding: 10px;
 }
-
-
+article > header {
+  text-align: center;
+}
+article > a {
+  padding: 0 15px;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 970px) {
+  .article-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  article {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 /* ================= About Me ================= */
 .content-box {
   text-transform: uppercase;
@@ -481,13 +497,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
 .svg-center {
     display: inline;
     position: relative;
     top: 3px;
 }
-
 @font-face {
     font-family: 'glyphterregular';
     src: url('../fonts/glyphter-webfont.eot');
@@ -500,7 +514,6 @@ body {
     font-style: normal;
 
 }
-
 .learn-icon {
   position: relative;
   top: 3px;
