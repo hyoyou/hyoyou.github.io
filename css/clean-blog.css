@@ -294,6 +294,20 @@ hr.small {
     font-size: 36px;
   }
 }
+
+/* ================= About Me ================= */
+.article-container {
+  margin-left: -16.667%;
+  margin-right: 16.667%;
+}
+article {
+  float: left;
+  width: 44%;
+  padding: 5% 3%;
+}
+
+
+/* ================= About Me ================= */
 .content-box {
   text-transform: uppercase;
   font-size: 1.25rem;
