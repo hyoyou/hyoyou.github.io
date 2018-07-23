@@ -509,6 +509,11 @@ article > a {
   }
 }
 /* ================= About Me ================= */
+.content {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
 .content-box {
   text-transform: uppercase;
   font-size: 1.25rem;
@@ -522,12 +527,13 @@ article > a {
 .content-box-image {
   margin-left: auto;
   margin-right: auto;
-  height: 110px;
+  height: 75px;
   width: 50%;
   vertical-align: bottom;
 }
 @media only screen and (max-width: 991px) {
   .content-box-image {
+    height: 95px;
     width: 40%;
   }
 }
@@ -537,6 +543,6 @@ article > a {
   }
   .content-box-image {
     height: 75px;
-    width: 9%;
+    width: 10%;
   }
 }
