@@ -294,37 +294,6 @@ hr.small {
     font-size: 36px;
   }
 }
-
-/* ================= About Me ================= */
-.article-container {
-  margin-left: -16.667%;
-  margin-right: 16.667%;
-}
-article {
-  float: left;
-  width: 44%;
-  padding: 5% 3%;
-}
-
-
-/* ================= About Me ================= */
-.content-box {
-  text-transform: uppercase;
-  font-size: 1.25rem;
-  text-align: center;
-  padding: 20px 0;
-}
-.content-box-icon {
-  font-size: 4rem;
-}
-.content-box-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 110px;
-  width: 50%;
-  vertical-align: bottom;
-}
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
@@ -481,13 +450,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
 .svg-center {
     display: inline;
     position: relative;
     top: 3px;
 }
-
 @font-face {
     font-family: 'glyphterregular';
     src: url('../fonts/glyphter-webfont.eot');
@@ -500,7 +467,6 @@ body {
     font-style: normal;
 
 }
-
 .learn-icon {
   position: relative;
   top: 3px;
@@ -513,4 +479,70 @@ body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/* ================= Portfolio ================= */
+.article-container {
+  margin-left: -16.667%;
+  margin-right: -16.667%;
+}
+article {
+  float: left;
+  width: 50%;
+  height: 600px;
+  padding: 10px;
+}
+article > header {
+  text-align: center;
+}
+article > a {
+  padding: 0 15px;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1100px) {
+  .article-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  article {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* ================= About Me ================= */
+.content {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+.content-box {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+.content-box-icon {
+  font-size: 4rem;
+}
+.content-box-image {
+  margin-left: auto;
+  margin-right: auto;
+  height: 75px;
+  width: 50%;
+  vertical-align: bottom;
+}
+@media only screen and (max-width: 991px) {
+  .content-box-image {
+    height: 95px;
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content-box {
+    padding: 12px 0;
+  }
+  .content-box-image {
+    height: 75px;
+    width: 10%;
+  }
 }
