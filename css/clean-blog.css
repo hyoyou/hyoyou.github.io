@@ -299,9 +299,18 @@ hr.small {
   text-transform: uppercase;
   font-size: 1.5rem;
   text-align: center;
+  padding: 20px 0;
 }
 .content-box-icon {
   font-size: 4rem;
+}
+.content-box-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 110px;
+  width: 50%;
+  vertical-align: bottom;
 }
 .section-heading {
   font-size: 36px;
