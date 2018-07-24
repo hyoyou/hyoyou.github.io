@@ -486,16 +486,16 @@ body {
   margin-left: -16.667%;
   margin-right: -16.667%;
 }
-article {
+.portfolio {
   float: left;
   width: 50%;
   height: 600px;
   padding: 10px;
 }
-article > header {
+.portfolio > header {
   text-align: center;
 }
-article > a {
+.portfolio > a {
   padding: 0 15px;
   text-decoration: underline;
 }
@@ -504,13 +504,13 @@ article > a {
     margin-left: 10px;
     margin-right: 10px;
   }
-  article {
+  .portfolio {
     width: 100%;
     margin: 50px auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  article {
+  .portfolio {
     margin: 6px auto;
   }
 }
