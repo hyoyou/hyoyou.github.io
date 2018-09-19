@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React App with Rails Back End Final Project Weather App"
-date:       2018-06-13 19:23:15 +0000
+date:       2018-06-13 15:23:16 -0400
 permalink:  react_app_with_rails_back_end_final_project_weather_app
 ---
 
@@ -44,4 +44,8 @@ Forecast page for logged in users with user cities loaded.
 Settings page.
 
 [Link to Github Repo](https://github.com/hyoyou/weather-to-wear)
+
+Demo. (May take a minute to load)
+[Link to Demo](https://weather-to-wear-react.herokuapp.com/)
+id: sunny@weather.com pw: demo123
 
