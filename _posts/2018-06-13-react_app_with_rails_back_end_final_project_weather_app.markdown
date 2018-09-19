@@ -45,7 +45,7 @@ Settings page.
 
 [Link to Github Repo](https://github.com/hyoyou/weather-to-wear)
 
-Demo. (May take a minute to load)
-[Link to Demo](https://weather-to-wear-react.herokuapp.com/)
+[Link to Demo](https://weather-to-wear-react.herokuapp.com/) (May take a minute to load)
+
 id: sunny@weather.com pw: demo123
 
