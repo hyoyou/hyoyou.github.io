@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Controlling Access in Java and How to (Not) Test Private Methods"
-date:       2019-02-14 15:22:32 +0000
+date:       2019-02-14 10:22:33 -0500
 permalink:  controlling_access_in_java_and_how_to_not_test_private_methods
 ---
 
@@ -38,7 +38,7 @@ You should be unit testing the public methods that implement your private method
 
 ![Public Method](https://imgur.com/Cx51yMW.jpg)
 
-I have the `public processRequest` method, which makes calls to several `private` methods (which could probably use some refactoring after this!). Unit testing `processRequest()` should verify that my `public` and the `private` methods it implements collectively return the result I expect. 
+I have the `public processRequest` method (which could probably use some refactoring after this!) that makes calls to several `private` methods. Unit testing `processRequest()` should verify that my `public` and the `private` methods it implements collectively return the result I expect. 
 
 Even after understanding the public method that implements the private methods, if you still feel the need to test private methods, it most likely indicates that there is a flaw in your application's design, or the method you are trying to test really shouldn't be private.
 
@@ -52,6 +52,8 @@ In conclusion, when practicing TDD, it is better to **not** follow the suggestio
 1. Write a failing unit test
 2. Create a **public** method to make your test green
 3. Refactor from within the public method and extract **private** methods, without changing your unit test
+
+
 
 ### Further Reading:
 [Java Tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
