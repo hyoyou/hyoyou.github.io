@@ -12,6 +12,8 @@ However, I am currently building an HTTP server in Java, and each method and cla
 
 ![Modifiers Chart](https://www.programcreek.com/wp-content/uploads/2011/11/access-level.png)
 
+Image Credit: https://www.programcreek.com
+
 Using access level modifiers protects your program from misuse, especially if other programmers have access to your classes. A good rule of thumb that I have seen/heard from many different sources is to start by using `private` unless there is a reason to change it. This is the rule that I was following, until I found that you can't unit test private methods. 
 
 Since I am learning TDD, I ended up writing a failing test, writing the method (with `private` access level modifier) to try and pass the failing test, only to be alerted that the method cannot be accessed due to the private access modifier. In order to "fix" this problem, I looked at the options IntelliJ provided for a solution, and changed it to a `public` method. 
@@ -45,6 +47,8 @@ Even after understanding the public method that implements the private methods, 
 If a public method is not calling the private method, do you even need this private method or is it dead code? If the private method in question is only called by other private methods, consider refactoring it to a separate class. While encapsulation is usually a good thing, hiding too much implementation behind private methods is not ideal and may be a signal that it can be a class of its own. As mentioned in one of the suggestions I got above, [Extract Class](https://refactoring.guru/extract-class) refactoring advises creation of new classes when a single class has too many responsibilities. This helps us stick to the *Single Responsibility Principle* as well. 
 
 ![Extract Class from Martin Fowler](https://imgur.com/5MPqQxr.jpg)
+
+Image Credit: https://refactoring.com/catalog/extractClass.html
 
 Though the consensus seems to be that you should not test private methods, there are ways to get around it if you are working with some legacy code where you're not allowed to change the visibility of your methods. You can give your methods package access, use a nested test class, or use reflection.
 
